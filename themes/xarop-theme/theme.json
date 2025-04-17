@@ -32,25 +32,37 @@
                 {
                     "name": "Small",
                     "slug": "small",
-                    "size": "0.8125rem" // 13px
+                    "size": "0.8125rem"
                 },
                 {
                     "name": "Medium",
                     "slug": "medium",
-                    "size": "1.25rem" // 20px
+                    "size": "1.25rem"
                 },
                 {
                     "name": "Large",
                     "slug": "large",
-                    "size": "2.25rem" // 36px
+                    "size": "2.25rem"
                 },
                 {
                     "name": "Extra Large",
                     "slug": "x-large",
-                    "size": "2.625rem" // 42px
+                    "size": "2.625rem"
                 }
             ],
-            "defaultFontSizes": false
+            "defaultFontSizes": false,
+            "fontFamilies": [
+                {
+                    "name": "Sans",
+                    "slug": "sans-serif",
+                    "fontFamily": "'Arial', sans-serif"
+                },
+                {
+                    "name": "Serif",
+                    "slug": "serif",
+                    "fontFamily": "'Georgia', serif"
+                }
+            ]
         },
         "spacing": {
             "units": [
@@ -74,7 +86,7 @@
             "text": "var(--wp--preset--color--text)"
         },
         "typography": {
-            "fontFamily": "var(--font-family)",
+            "fontFamily": "var(--wp--preset--font-family--sans-serif)",
             "lineHeight": 1.6
         },
         "spacing": {

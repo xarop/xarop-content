@@ -1,0 +1,15 @@
+# Ignore plugins directory
+plugins/
+
+# Ignore themes starting with "twenty"
+themes/twenty*/
+
+# Ignore uploads and upgrade folders
+uploads/
+upgrade/
+
+# Ignore system files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db

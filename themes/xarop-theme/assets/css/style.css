@@ -15,7 +15,27 @@
     --block-gap: 1.5rem;
 }
 
-/* Global Styles */
+/* Dark Theme Variables */
+.dark-theme {
+    --background-color: #333333;
+    --text-color: #ffffff;
+}
+
+
+
+/* Reset Styles */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -25,6 +45,33 @@ body {
     line-height: 1.6;
 }
 
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/* Global Styles */
 a {
     color: var(--primary-color);
     text-decoration: none;

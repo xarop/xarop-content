@@ -1,24 +1,37 @@
 /* CSS Variables */
 :root {
-    --primary-color: #EE2455;
-    --secondary-color: #005177;
-    --background-color: #ffffff;
-    --text-color: #333333;
-    --font-family: 'Arial', sans-serif;
-    --max-width: 800px;
+    /* Colors from theme.json */
+    --primary-color: var(--wp--preset--color--primary);
+    --secondary-color: var(--wp--preset--color--secondary);
+    --background-color: var(--wp--preset--color--background);
+    --text-color: var(--wp--preset--color--text);
+
+    /* Font sizes from theme.json */
+    --font-size-small: var(--wp--preset--font-size--small);
+    /* 0.8125rem // 13px */
+    --font-size-medium: var(--wp--preset--font-size--medium);
+    /* 1.25rem  // 20px */
+    --font-size-large: var(--wp--preset--font-size--large);
+    /* 2.25rem    // 36px */
+    --font-size-x-large: var(--wp--preset--font-size--x-large);
+    /* 2.625rem   // 42px */
+
+    /* Layout from theme.json custom layout */
     --content-width: 800px;
+    --max-width: var(--content-width);
+    /* if they’re the same */
     --wide-width: 1200px;
-    --font-size-small: 13px;
-    --font-size-medium: 20px;
-    --font-size-large: 36px;
-    --font-size-x-large: 42px;
-    --block-gap: 1.5rem;
+
+    /* Misc */
+    --block-gap: var(--wp--style--spacing--block-gap);
+    --font-family: 'Arial', sans-serif;
+    /* Not defined in theme.json, still custom */
 }
 
 /* Dark Theme Variables */
 .dark-theme {
-    --background-color: #333333;
-    --text-color: #ffffff;
+    --background-color: var(--wp--preset--color--text);
+    --text-color: var(--wp--preset--color--background);
 }
 
 

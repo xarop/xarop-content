@@ -32,22 +32,22 @@
                 {
                     "name": "Small",
                     "slug": "small",
-                    "size": "13px"
+                    "size": "0.8125rem" // 13px
                 },
                 {
                     "name": "Medium",
                     "slug": "medium",
-                    "size": "20px"
+                    "size": "1.25rem" // 20px
                 },
                 {
                     "name": "Large",
                     "slug": "large",
-                    "size": "36px"
+                    "size": "2.25rem" // 36px
                 },
                 {
                     "name": "Extra Large",
                     "slug": "x-large",
-                    "size": "42px"
+                    "size": "2.625rem" // 42px
                 }
             ],
             "defaultFontSizes": false

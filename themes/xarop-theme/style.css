@@ -1,0 +1,13 @@
+/*
+Theme Name: Xarop Theme
+Theme URI: https://github.com/xarop/xarop-theme
+Author: Xarop
+Author URI: https://github.com/xarop
+Description: A modern, lightweight, and semantic WordPress theme compatible with Gutenberg.
+Version: 1.0
+License: MIT
+License URI: https://opensource.org/licenses/MIT
+Text Domain: xarop-theme
+*/
+
+@import url('./assets/css/style.css');

@@ -1,0 +1,9 @@
+/* Editor-Specific Styles */
+.editor-styles-wrapper {
+    padding: 1rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 1rem;
+}

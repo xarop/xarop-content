@@ -1,22 +1,18 @@
 <?php
 
-// Replace the login screen logo
+// Replace the WordPress login logo
 add_action('login_enqueue_scripts', function () {
     echo '<style>
         .login h1 a {
-            background-image: url("' . plugin_dir_url(__DIR__) . 'assets/logo.svg");
-            background-size: contain;
-            width: 100%;
-            height: 80px;
-        }
+            background-image: url("' . plugin_dir_url(__DIR__) . 'assets/logo.svg") !important;
     </style>';
 });
 
-// Remove the WordPress logo from the admin bar
+// Replace the WordPress admin bar logo
 add_action('admin_head', function () {
     echo '<style>
-        #wp-admin-bar-wp-logo {
-            display: none;
+        #wp-admin-bar-wp-logo > .ab-item {
+            display:none !important;
         }
     </style>';
 });

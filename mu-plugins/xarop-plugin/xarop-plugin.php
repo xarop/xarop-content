@@ -12,3 +12,4 @@ require_once __DIR__ . '/includes/options-page.php';
 require_once __DIR__ . '/includes/comments.php';
 require_once __DIR__ . '/includes/cleanup.php';
 require_once __DIR__ . '/includes/disable-gutenberg.php';
+require_once __DIR__ . '/includes/admin-customizations.php';

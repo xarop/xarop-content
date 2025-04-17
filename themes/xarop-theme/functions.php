@@ -22,5 +22,6 @@ function xarop_theme_setup()
     // Add support for editor styles
     add_theme_support('editor-styles');
     add_editor_style('assets/css/style.css');
+    add_editor_style('assets/css/editor-style.css');
 }
 add_action('after_setup_theme', 'xarop_theme_setup');

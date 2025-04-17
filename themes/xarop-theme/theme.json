@@ -1,0 +1,84 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "name": "Primary",
+                    "slug": "primary",
+                    "color": "#EE2455"
+                },
+                {
+                    "name": "Secondary",
+                    "slug": "secondary",
+                    "color": "#005177"
+                },
+                {
+                    "name": "Background",
+                    "slug": "background",
+                    "color": "#ffffff"
+                },
+                {
+                    "name": "Text",
+                    "slug": "text",
+                    "color": "#333333"
+                }
+            ],
+            "defaultPalette": false
+        },
+        "typography": {
+            "fontSizes": [
+                {
+                    "name": "Small",
+                    "slug": "small",
+                    "size": "13px"
+                },
+                {
+                    "name": "Medium",
+                    "slug": "medium",
+                    "size": "20px"
+                },
+                {
+                    "name": "Large",
+                    "slug": "large",
+                    "size": "36px"
+                },
+                {
+                    "name": "Extra Large",
+                    "slug": "x-large",
+                    "size": "42px"
+                }
+            ],
+            "defaultFontSizes": false
+        },
+        "spacing": {
+            "units": [
+                "px",
+                "em",
+                "rem",
+                "%"
+            ],
+            "blockGap": "1.5rem"
+        },
+        "custom": {
+            "layout": {
+                "contentSize": "800px",
+                "wideSize": "1200px"
+            }
+        }
+    },
+    "styles": {
+        "color": {
+            "background": "var(--wp--preset--color--background)",
+            "text": "var(--wp--preset--color--text)"
+        },
+        "typography": {
+            "fontFamily": "var(--font-family)",
+            "lineHeight": 1.6
+        },
+        "spacing": {
+            "padding": "1rem"
+        }
+    }
+}

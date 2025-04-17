@@ -6,6 +6,13 @@
     --text-color: #333333;
     --font-family: 'Arial', sans-serif;
     --max-width: 800px;
+    --content-width: 800px;
+    --wide-width: 1200px;
+    --font-size-small: 13px;
+    --font-size-medium: 20px;
+    --font-size-large: 36px;
+    --font-size-x-large: 42px;
+    --block-gap: 1.5rem;
 }
 
 /* Global Styles */
@@ -45,4 +52,25 @@ p {
     max-width: var(--max-width);
     margin: 0 auto;
     padding: 1rem;
+}
+
+/* Gutenberg Block Styles */
+.wp-block {
+    margin-bottom: var(--block-gap);
+}
+
+.wp-block-button__link {
+    color: var(--background-color);
+    background-color: var(--primary-color);
+    border-radius: 9999px;
+    box-shadow: none;
+    text-decoration: none;
+    padding: calc(0.667em + 2px) calc(1.333em + 2px);
+    font-size: var(--font-size-medium);
+}
+
+.wp-block-file__button {
+    background: var(--primary-color);
+    color: var(--background-color);
+    text-decoration: none;
 }

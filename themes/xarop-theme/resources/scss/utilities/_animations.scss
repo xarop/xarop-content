@@ -1,0 +1,48 @@
+// Fade in
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+// Slide in
+@keyframes slideIn {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slide-in {
+    animation: slideIn 0.3s ease-out;
+}
+
+// Hover animations
+.hover-scale {
+    @apply transition-transform duration-300;
+
+    &:hover {
+        @apply scale-105;
+    }
+}
+
+.hover-lift {
+    @apply transition-transform duration-300;
+
+    &:hover {
+        @apply -translate-y-1;
+    }
+}

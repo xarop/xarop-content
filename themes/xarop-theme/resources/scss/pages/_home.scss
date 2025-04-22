@@ -1,0 +1,25 @@
+.home {
+    .hero {
+        @apply relative py-16 md:py-24 bg-primary text-white;
+
+        &-content {
+            @apply container mx-auto px-4 text-center;
+        }
+    }
+
+    .featured-posts {
+        @apply py-12;
+
+        .post-card {
+            @apply bg-white rounded-lg shadow-md overflow-hidden;
+
+            &-image {
+                @apply w-full h-48 object-cover;
+            }
+
+            &-content {
+                @apply p-6;
+            }
+        }
+    }
+}

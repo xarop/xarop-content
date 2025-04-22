@@ -1,0 +1,19 @@
+.site-header {
+    @apply bg-white shadow-md;
+
+    .site-branding {
+        @apply flex items-center;
+
+        .custom-logo {
+            @apply h-12 w-auto;
+        }
+
+        .site-title {
+            @apply text-2xl font-bold text-secondary ml-4;
+        }
+    }
+
+    .menu-toggle {
+        @apply md:hidden;
+    }
+}

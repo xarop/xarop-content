@@ -1,0 +1,89 @@
+// Text utilities
+.text {
+    &-primary {
+        @apply text-primary;
+    }
+
+    &-secondary {
+        @apply text-secondary;
+    }
+
+    &-white {
+        @apply text-white;
+    }
+
+    &-gray {
+        @apply text-gray-500;
+    }
+}
+
+// Background utilities
+.bg {
+    &-primary {
+        @apply bg-primary;
+    }
+
+    &-secondary {
+        @apply bg-secondary;
+    }
+
+    &-white {
+        @apply bg-white;
+    }
+
+    &-gray {
+        @apply bg-gray-100;
+    }
+}
+
+// Display utilities
+.hidden {
+    @apply hidden;
+}
+
+.visible {
+    @apply block;
+}
+
+// Flex utilities
+.flex {
+    &-center {
+        @apply flex items-center justify-center;
+    }
+
+    &-between {
+        @apply flex items-center justify-between;
+    }
+}
+
+// Position utilities
+.relative {
+    @apply relative;
+}
+
+.absolute {
+    @apply absolute;
+}
+
+.fixed {
+    @apply fixed;
+}
+
+// Z-index utilities
+.z {
+    &-dropdown {
+        z-index: $z-index-dropdown;
+    }
+
+    &-sticky {
+        z-index: $z-index-sticky;
+    }
+
+    &-fixed {
+        z-index: $z-index-fixed;
+    }
+
+    &-modal {
+        z-index: $z-index-modal;
+    }
+}

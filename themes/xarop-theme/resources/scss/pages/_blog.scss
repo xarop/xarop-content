@@ -1,0 +1,41 @@
+.blog {
+    .posts {
+        @apply grid gap-8;
+
+        .post {
+            @apply bg-white rounded-lg shadow-md overflow-hidden;
+
+            &-thumbnail {
+                @apply w-full h-64 object-cover;
+            }
+
+            &-content {
+                @apply p-6;
+            }
+
+            &-meta {
+                @apply text-sm text-gray-500 mb-4;
+            }
+
+            &-title {
+                @apply text-2xl font-bold mb-4;
+            }
+
+            &-excerpt {
+                @apply mb-4;
+            }
+        }
+    }
+
+    .pagination {
+        @apply flex justify-center mt-8;
+
+        .page-numbers {
+            @apply px-4 py-2 mx-1 rounded-md bg-white text-primary hover:bg-primary hover:text-white transition-colors;
+
+            &.current {
+                @apply bg-primary text-white;
+            }
+        }
+    }
+}

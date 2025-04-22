@@ -1,0 +1,31 @@
+.primary-menu {
+    @apply hidden md:flex items-center space-x-4;
+
+    &.active {
+        @apply flex flex-col md:flex-row absolute md:relative top-full left-0 right-0 bg-white shadow-md md:shadow-none p-4 md:p-0;
+    }
+
+    .menu-item {
+        @apply relative;
+
+        &.dropdown {
+            @apply group;
+        }
+
+        a {
+            @apply block py-2 px-4 text-secondary hover:text-primary transition-colors;
+        }
+
+        .dropdown-menu {
+            @apply hidden md:absolute top-full left-0 bg-white shadow-md min-w-[200px] z-10;
+
+            &.show {
+                @apply block;
+            }
+        }
+    }
+}
+
+.menu-toggle {
+    @apply p-2 text-secondary hover:text-primary;
+}

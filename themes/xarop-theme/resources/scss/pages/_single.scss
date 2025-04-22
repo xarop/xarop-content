@@ -1,0 +1,29 @@
+.single-post {
+    .entry-header {
+        @apply mb-8;
+
+        .entry-title {
+            @apply text-4xl md:text-5xl font-bold mb-4;
+        }
+
+        .entry-meta {
+            @apply text-gray-500;
+        }
+    }
+
+    .entry-content {
+        @apply prose prose-lg max-w-none;
+
+        img {
+            @apply rounded-lg shadow-md;
+        }
+
+        blockquote {
+            @apply border-l-4 border-primary pl-4 italic;
+        }
+    }
+
+    .entry-footer {
+        @apply mt-8 pt-8 border-t border-gray-200;
+    }
+}

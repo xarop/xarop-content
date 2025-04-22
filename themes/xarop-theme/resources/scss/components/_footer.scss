@@ -1,0 +1,19 @@
+.site-footer {
+    @apply bg-secondary text-white py-8;
+
+    .footer-widgets {
+        @apply container mx-auto px-4;
+
+        .widget {
+            @apply mb-8;
+
+            .widget-title {
+                @apply text-xl font-bold mb-4;
+            }
+        }
+    }
+
+    .site-info {
+        @apply container mx-auto px-4 text-center text-sm;
+    }
+}

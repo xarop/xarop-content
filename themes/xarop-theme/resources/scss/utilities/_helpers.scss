@@ -1,5 +1,5 @@
 // Text utilities
-.text {
+.text-color {
     &-primary {
         @apply text-primary;
     }
@@ -18,7 +18,7 @@
 }
 
 // Background utilities
-.bg {
+.bg-color {
     &-primary {
         @apply bg-primary;
     }
@@ -37,11 +37,11 @@
 }
 
 // Display utilities
-.hidden {
+.is-hidden {
     @apply hidden;
 }
 
-.visible {
+.is-visible {
     @apply block;
 }
 
@@ -57,15 +57,15 @@
 }
 
 // Position utilities
-.relative {
+.pos-relative {
     @apply relative;
 }
 
-.absolute {
+.pos-absolute {
     @apply absolute;
 }
 
-.fixed {
+.pos-fixed {
     @apply fixed;
 }
 

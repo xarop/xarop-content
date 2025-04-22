@@ -1,0 +1,29 @@
+// Tailwind
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Variables
+@import 'variables';
+
+// Components
+@import 'components/header';
+@import 'components/footer';
+@import 'components/navigation';
+@import 'components/buttons';
+@import 'components/forms';
+
+// Layout
+@import 'layout/grid';
+@import 'layout/typography';
+@import 'layout/spacing';
+
+// Pages
+@import 'pages/home';
+@import 'pages/blog';
+@import 'pages/single';
+@import 'pages/archive';
+
+// Utilities
+@import 'utilities/animations';
+@import 'utilities/helpers';

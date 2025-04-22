@@ -1,0 +1,28 @@
+{
+    "name": "xarop-theme",
+    "version": "1.0.0",
+    "description": "A modern, lightweight, and semantic WordPress theme",
+    "scripts": {
+        "dev": "mix watch",
+        "build": "mix --production",
+        "lint": "eslint resources/js && stylelint resources/scss"
+    },
+    "dependencies": {
+        "@wordpress/blocks": "^12.0.0",
+        "@wordpress/components": "^23.0.0",
+        "@wordpress/element": "^5.0.0"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.18.6",
+        "autoprefixer": "^10.4.14",
+        "browser-sync": "^2.29.1",
+        "browser-sync-webpack-plugin": "^2.3.0",
+        "eslint": "^8.38.0",
+        "laravel-mix": "^6.0.49",
+        "postcss": "^8.4.23",
+        "sass": "^1.62.0",
+        "sass-loader": "^13.2.2",
+        "stylelint": "^15.6.0",
+        "tailwindcss": "^3.3.1"
+    }
+}
